@@ -3,6 +3,7 @@ package org.vistula.person;
 import org.junit.Test;
 
 public class PersonTest {
+    //
 
     Person permanentDaria = new Person();
 
@@ -17,6 +18,7 @@ public class PersonTest {
         Person slawek = new Person();
         assert slawek.getName().equals("Slawek");
     }
+
 
     @Test
     public void shouldCorrectlySetAge() {
